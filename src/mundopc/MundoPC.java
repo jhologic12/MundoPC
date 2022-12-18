@@ -21,7 +21,12 @@ public class MundoPC {
         
         Computadora computadoraClone = new Computadora("Computadora Clon" , monitorHP,tecladoDell,ratonDell);
         
+        Orden orden1 = new Orden();
         
+        orden1.agregarComputadora(computadoraHP);
+        orden1.agregarComputadora(computadoraDELL);
+        orden1.agregarComputadora(computadoraClone);
+        orden1.mostrarOrden();
         
     }
 }
